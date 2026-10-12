@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Telemetry UI Kit — Synthetic Demo</title>
+<style>
+:root { color-scheme: dark; font: 16px/1.5 system-ui, sans-serif; background:#0b1324; color:#edf4ff; }
+body { margin:0; padding:2rem; max-width:1000px; margin-inline:auto; }
+header { border-bottom:1px solid #36506e; margin-bottom:1.5rem; }
+.note { color:#9bdcf0; }
+table { width:100%; border-collapse:collapse; background:#111f35; }
+th,td { padding:.75rem; border-bottom:1px solid #36506e; text-align:left; }
+th { color:#9bdcf0; }
+.badge { border:1px solid #87c8dc; border-radius:999px; padding:.1rem .55rem; }
+@media (max-width:650px) { body { padding:1rem; } table { font-size:.85rem; } th,td { padding:.45rem; } }
+</style>
+</head>
+<body>
+<header>
+<h1>Telemetry UI Kit</h1>
+<p class="note">Synthetic demonstration only — no live collection or backend.</p>
+</header>
+<main>
+<h2>Recent events</h2>
+<table>
+<thead><tr><th>Time</th><th>Component</th><th>Event</th><th>Source</th><th>Review</th></tr></thead>
+<tbody>
+<tr><td>2026-01-01 00:00Z</td><td>demo-component</td><td>state_transition</td><td><span class="badge">synthetic</span></td><td>unreviewed</td></tr>
+</tbody>
+</table>
+<p>Record source, version, event identifier, and evidence class before adding real data.</p>
+</main>
+</body>
+</html>
